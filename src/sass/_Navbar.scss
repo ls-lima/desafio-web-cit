@@ -1,0 +1,53 @@
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  .form {
+    width: 100%;
+  }
+
+  .form-group {
+    margin: 0
+  }
+}
+
+.navbar--search-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar--search,
+.navbar--search:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  width: calc(90% - 1rem);
+  margin-left: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar--nav-item {
+  border-left: 1px solid #e8e9ee;
+  padding: 1rem;
+  cursor: pointer; 
+  white-space: nowrap;
+
+  &:hover {
+    opacity: .5;
+  }
+}
+
+.navbar-brand {
+  border-right: 1px solid #e8e9ee;
+  padding-right: 1rem;
+}
+
+.navbar-brand--brand-icon {
+  vertical-align: middle;
+}
+
+.navbar-brand--brand-name {
+  vertical-align: middle;
+  padding-left: 1rem;
+}

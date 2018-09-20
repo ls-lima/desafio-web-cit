@@ -1,0 +1,32 @@
+.product-list-controls {
+  background-color: #333333;
+  color: white;
+  padding: .6rem 0;
+
+  label{
+    margin: 0;
+  }
+  
+  .form-group {
+    margin: 0
+  }
+}
+
+.product-list-controls--label {
+  display: inline;
+  padding-right: 10px;
+  line-height: 38px;
+}
+
+.product-list-controls--select,
+.product-list-controls--select:focus {
+  width: auto;
+  display: inline;
+  color: white;
+  background: #333333;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 0;
+
+}
